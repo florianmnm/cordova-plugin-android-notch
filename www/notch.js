@@ -2,34 +2,34 @@
 
 var run = require("cordova/exec");
 
-var AndroidNotch = {
+var AndroidSafeAreaInset = {
 
 
     hasCutout: function(success, error) {
-        run(success, error, "AndroidNotch", "hasCutout");
+        run(success, error, "AndroidSafeAreaInset", "hasCutout");
     },
 
     setLayout: function(success, error) {
-        run(success, error, "AndroidNotch", "setLayout");
+        run(success, error, "AndroidSafeAreaInset", "setLayout");
     },
 
     getInsetTop: function (success, error) {
-        run(success, error, "AndroidNotch", "getInsetsTop");
+        run(success, error, "AndroidSafeAreaInset", "getInsetsTop");
     },
     
     getInsetRight: function (success, error) {
-        run(success, error, "AndroidNotch", "getInsetsRight");
+        run(success, error, "AndroidSafeAreaInset", "getInsetsRight");
     },
     
     getInsetBottom: function (success, error) {
-        run(success, error, "AndroidNotch", "getInsetsBottom");
+        run(success, error, "AndroidSafeAreaInset", "getInsetsBottom");
     },
     
     getInsetLeft: function (success, error) {
-        run(success, error, "AndroidNotch", "getInsetsLeft");
+        run(success, error, "AndroidSafeAreaInset", "getInsetsLeft");
     }
 
 };
 
 
-module.exports = AndroidNotch;
+module.exports = AndroidSafeAreaInset;
