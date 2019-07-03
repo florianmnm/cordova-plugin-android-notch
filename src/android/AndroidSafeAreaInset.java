@@ -1,7 +1,7 @@
 
 
 
-package com.tobspr.androidnotch;
+package com.tobspr.androidsafeareainset;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -24,8 +24,8 @@ import org.json.JSONException;
 import java.util.Arrays;
 
 
-public class AndroidNotch extends CordovaPlugin {
-    private static final String TAG = "AndroidNotch";
+public class AndroidSafeAreaInset extends CordovaPlugin {
+    private static final String TAG = "AndroidSafeAreaInset";
 
     
     /**
